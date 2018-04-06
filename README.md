@@ -16,3 +16,6 @@ X_test_scaled = preprocessing.scale(X_test)
 ###
 With rescaled data SVM model learns to generalize well with both, training and testing, accuracies close to 98%
 ![figure_1](https://user-images.githubusercontent.com/30974121/37826036-5762b4dc-2e92-11e8-9aa1-8c93cadcbb0d.png)
+###
+This shows the importance of data being normally (Gaussian) distributed aroud zero before passing it through 
+learning model, such as in this example, support vector machine with *round basis function* kernel.
